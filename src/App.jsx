@@ -1,7 +1,6 @@
 import { ProspectModal } from "./Components/ProspectModal";
 import { Sidebar } from "./Components/Sidebar";
-import React, { useEffect, useState } from "react";
-import { useFetch } from "./hooks/useFetch";
+import React, { useState } from "react";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
