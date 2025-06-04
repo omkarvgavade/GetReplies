@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #ffff;
+  color: #e6f0ff;
+  min-height: 100vh;
+}
+
+.stories-container {
+  background-color: #1e4a8e;
+}
